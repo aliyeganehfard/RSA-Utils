@@ -1,4 +1,4 @@
-package com.oauth.RSAGenerator;
+package ir.larxury.RSAGenerator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

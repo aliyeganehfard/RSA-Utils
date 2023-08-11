@@ -1,16 +1,11 @@
-package com.oauth.RSAGenerator;
+package ir.larxury.RSAGenerator;
 
-import com.oauth.RSAGenerator.service.PemFileWriter;
+import ir.larxury.RSAGenerator.service.PemFileWriter;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.*;
 import java.security.interfaces.RSAPrivateKey;

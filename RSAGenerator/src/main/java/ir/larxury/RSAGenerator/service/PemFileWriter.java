@@ -1,4 +1,4 @@
-package com.oauth.RSAGenerator.service;
+package ir.larxury.RSAGenerator.service;
 
 import org.bouncycastle.util.io.pem.PemObject;
 import org.bouncycastle.util.io.pem.PemWriter;
